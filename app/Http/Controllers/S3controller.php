@@ -37,7 +37,7 @@ class S3controller extends Controller
 
 //dd($files);
         // Pagination setup
-        $perPage = 36;
+        $perPage = 24;
         $currentPage = $request->get('page', 1);
         $paginatedFiles = new LengthAwarePaginator(
             $files->forPage($currentPage, $perPage),
