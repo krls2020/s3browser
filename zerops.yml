@@ -20,6 +20,8 @@ zerops:
         APP_ENV: production
         APP_LOCALE: en
 
+        SESSION_DRIVER: file
+
         DB_CONNECTION:
         DB_DATABASE:
         DB_HOST:
