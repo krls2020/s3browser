@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 use Illuminate\Pagination\LengthAwarePaginator;
 use Illuminate\Support\Facades\Storage;
 
-class S3Controller extends Controller
+class S3controller extends Controller
 {
     /**
      * Display the contents of an S3 bucket and connection information.
