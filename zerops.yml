@@ -20,12 +20,12 @@ zerops:
         APP_ENV: production
         APP_LOCALE: en
 
-        DB_CONNECTION: ""
-        DB_DATABASE: ""
-        DB_HOST: ""
-        DB_USERNAME: ""
-        DB_PASSWORD: ""
-        DB_PORT: ""
+        DB_CONNECTION:
+        DB_DATABASE:
+        DB_HOST:
+        DB_USERNAME:
+        DB_PASSWORD:
+        DB_PORT:
 
         AWS_ACCESS_KEY_ID: ${storage_accessKeyId}
         AWS_REGION: us-east-1
