@@ -4,4 +4,6 @@ use App\Http\Controllers\S3controller;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', [S3controller::class, 'index'])->name('index');
-Route::get('/upload-test-file', [S3controller::class, 'uploadTestFile']);
+Route::post('/upload-test-file', [S3Controller::class, 'uploadTestFile'])->name('upload.test.file');
+Route::delete('/delete-file', [S3Controller::class, 'deleteFile'])->name('delete.file');
+
